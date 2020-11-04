@@ -19,6 +19,7 @@ namespace IU1
                 Console.WriteLine("     Calculator");
                 Console.WriteLine("---------------------");
                 writeMenu = false;
+                Console.WriteLine("testtesttest");
             }
 
             myInput.GetInput();
