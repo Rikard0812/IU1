@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rille\\OneDrive\\Skrivbord\\VS Code Proj\\IU1\\IU1.csproj",
+      "projectUniqueName": "C:\\Users\\rille\\OneDrive\\Dokument\\GitHub\\IU1\\IU1.csproj",
       "projectName": "IU1",
-      "projectPath": "C:\\Users\\rille\\OneDrive\\Skrivbord\\VS Code Proj\\IU1\\IU1.csproj",
+      "projectPath": "C:\\Users\\rille\\OneDrive\\Dokument\\GitHub\\IU1\\IU1.csproj",
       "packagesPath": "C:\\Users\\rille\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rille\\OneDrive\\Skrivbord\\VS Code Proj\\IU1\\obj\\",
+      "outputPath": "C:\\Users\\rille\\OneDrive\\Dokument\\GitHub\\IU1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rille\\AppData\\Roaming\\NuGet\\NuGet.Config",

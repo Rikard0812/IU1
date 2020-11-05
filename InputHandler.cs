@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace IU1
 {
-    public class InputHandler: Program
+    public class InputHandler : Program
     {
         public string firstOperator;
         public string secondOperator;
 
-        public int firstNumber;
-        public int secondNumber;
-        public int thirdNumber;
+        public double firstNumber;
+        public double secondNumber;
+        public double thirdNumber;
+        public double Sum;
 
-        public void GetInput ()
+        double firstSum;
+        double secondSum;
+
+        public void GetInput()
         {
+            Console.WriteLine("Använd Operatorer + - * eller / ");
             Console.Write("Enter first Operator: ");
             firstOperator = Console.ReadLine();
 
@@ -25,20 +30,85 @@ namespace IU1
 
             Console.Write("Enter your first Number: ");
             //string firstNumberString = Console.ReadLine();
-            firstNumber = int.Parse(Console.ReadLine());
+            firstNumber = double.Parse(Console.ReadLine());
 
             Console.Write("Enter your second number: ");
-            secondNumber = int.Parse(Console.ReadLine());
+            secondNumber = double.Parse(Console.ReadLine());
 
             Console.Write("Enter your third Number: ");
-            thirdNumber = int.Parse(Console.ReadLine());
+            thirdNumber = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(firstOperator + secondOperator + firstNumber + secondNumber + thirdNumber);
         }
 
         public void DoCalculation()
         {
-            Console.WriteLine("hej" + firstNumber);
+            if (firstOperator == "*")
+            {
+                firstSum = firstNumber * secondNumber;
+            }
+
+            if (secondOperator == "*" && firstOperator == "*")
+            {
+                Sum = firstSum * thirdNumber;
+            }
+
+            if (secondOperator == "*" && firstOperator != "*")
+            {
+                secondSum = secondNumber * thirdNumber;
+            }
+
+            if (firstOperator == "/" && secondOperator != "*")
+            {
+                firstSum = firstNumber / secondNumber;
+            }
+
+            if (firstOperator == "/" && secondOperator == "*")
+            {
+                Sum = firstNumber / secondSum;
+            }
+
+            if (secondOperator == "/" && firstOperator == "/")
+            {
+                Sum = firstSum / thirdNumber;
+            }
+
+            if (secondOperator == "/" && firstOperator == "*")
+            {
+                Sum = firstSum / thirdNumber;
+            }
+
+            if (secondOperator == "/" && firstOperator != "/")
+            {
+                secondSum = secondNumber / thirdNumber;
+            }
+
+            if (firstOperator == "+")
+            {
+                firstSum = firstNumber + secondNumber;
+            }
+
+            if (firstOperator == "-")
+            {
+                firstSum = firstNumber - secondNumber;
+            }
+
+            if (secondOperator == "+")
+            {
+                Sum = firstSum + thirdNumber;
+            }
+
+            if (secondOperator == "-")
+            {
+                Sum = firstSum - thirdNumber;
+            }
+
+            //Sum = firstSum + secondSum;
+            //Console.WriteLine(Sum);
+        }
+
+        public void DisplayEquation()
+        {
+            Console.WriteLine(firstNumber + " " + firstOperator + " " + secondNumber + " " + secondOperator + " " + thirdNumber + " = " + Sum);
         }
     }
 }
