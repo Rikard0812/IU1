@@ -59,4 +59,8 @@ bin/Debug/netcoreapp3.1/IU1.pdb
 obj/Debug/netcoreapp3.1/IU1.assets.cache
 obj/Debug/netcoreapp3.1/IU1.csproj.CoreCompileInputs.cache
 obj/Debug/netcoreapp3.1/IU1.csproj.FileListAbsolute.txt
-
+obj/Debug/netcoreapp3.1/IU1.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.1/IU1.assets.cache
+obj/project.nuget.cache
+obj/project.assets.json
+obj/IU1.csproj.nuget.dgspec.json
