@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\rille\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\rille\\.nuget\\packages"
+    ]
+  }
+}

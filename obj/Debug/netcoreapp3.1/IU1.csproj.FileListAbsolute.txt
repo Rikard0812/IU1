@@ -1,0 +1,13 @@
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.exe
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.deps.json
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.runtimeconfig.json
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.runtimeconfig.dev.json
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.dll
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\bin\Debug\netcoreapp3.1\IU1.pdb
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.csprojAssemblyReference.cache
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.AssemblyInfoInputs.cache
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.AssemblyInfo.cs
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.csproj.CoreCompileInputs.cache
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.dll
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.pdb
+C:\Users\rille\OneDrive\Dokument\GitHub\IU1\obj\Debug\netcoreapp3.1\IU1.genruntimeconfig.cache

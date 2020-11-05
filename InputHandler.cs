@@ -52,9 +52,13 @@ namespace IU1
                 Sum = firstSum * thirdNumber;
             }
 
-            if (secondOperator == "*" && firstOperator != "*")
+            if (secondOperator == "*" && firstOperator != "*" && firstOperator != "/")
             {
                 secondSum = secondNumber * thirdNumber;
+            }
+            if (secondOperator == "*" && firstOperator == "/")
+            {
+                firstSum = firstNumber / secondNumber;
             }
 
             if (firstOperator == "/" && secondOperator != "*")
@@ -64,7 +68,7 @@ namespace IU1
 
             if (firstOperator == "/" && secondOperator == "*")
             {
-                Sum = firstNumber / secondSum;
+                Sum = firstSum * thirdNumber;
             }
 
             if (secondOperator == "/" && firstOperator == "/")
