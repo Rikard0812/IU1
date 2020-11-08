@@ -29,7 +29,6 @@ namespace IU1
             secondOperator = Console.ReadLine();
 
             Console.Write("Enter your first Number: ");
-            //string firstNumberString = Console.ReadLine();
             firstNumber = double.Parse(Console.ReadLine());
 
             Console.Write("Enter your second number: ");
@@ -88,12 +87,26 @@ namespace IU1
 
             if (firstOperator == "+")
             {
-                firstSum = firstNumber + secondNumber;
+                if (secondSum != 0)
+                {
+                    Sum = firstNumber + secondSum;
+                }
+                else
+                {
+                    firstSum = firstNumber + secondNumber;
+                }
             }
 
             if (firstOperator == "-")
             {
-                firstSum = firstNumber - secondNumber;
+                if (secondSum != 0)
+                {
+                    Sum = firstNumber - secondSum;
+                }
+                else
+                {
+                    firstSum = firstNumber - secondNumber;
+                }
             }
 
             if (secondOperator == "+")
@@ -106,8 +119,6 @@ namespace IU1
                 Sum = firstSum - thirdNumber;
             }
 
-            //Sum = firstSum + secondSum;
-            //Console.WriteLine(Sum);
         }
 
         public void DisplayEquation()
