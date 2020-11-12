@@ -12,8 +12,8 @@ namespace IU1
 
         public void DisplayCoice()
         {
-            Console.WriteLine("Klicka på valfri knapp för att göra Beräkning.");
-            Console.WriteLine("ELLER tryck ESC för att avsluta");
+            Console.WriteLine("Click a Random button to start a Calculation.");
+            Console.WriteLine("OR Click on ESC to Exit");
 
             Choice = Convert.ToString(Console.ReadKey(true).Key);
         }

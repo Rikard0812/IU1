@@ -21,7 +21,7 @@ namespace IU1
 
         public void GetInput()
         {
-            Console.WriteLine("Använd Operatorer + - * eller / ");
+            Console.WriteLine("Use Operatorer + - * or / ");
             Console.Write("Enter first Operator: ");
             firstOperator = Console.ReadLine();
 
